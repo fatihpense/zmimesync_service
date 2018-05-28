@@ -15,11 +15,6 @@ ENDCLASS.
 CLASS ZCL_MIMESYNC_SERVICE IMPLEMENTATION.
 
 
-* <SIGNATURE>---------------------------------------------------------------------------------------+
-* | Instance Public Method ZCL_MIMESYNC_SERVICE->IF_HTTP_EXTENSION~HANDLE_REQUEST
-* +-------------------------------------------------------------------------------------------------+
-* | [--->] SERVER                         TYPE REF TO IF_HTTP_SERVER
-* +--------------------------------------------------------------------------------------</SIGNATURE>
   METHOD if_http_extension~handle_request.
 
     DATA: lv_mime_url          TYPE string,
